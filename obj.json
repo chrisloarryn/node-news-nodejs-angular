@@ -1,0 +1,140 @@
+[{
+        "_id": "5e73f1a5628f751a341181de",
+        "title": "RFC: Adopt a modern JavaScript framework for use with MediaWiki",
+        "author": "mch82",
+        "date": "2020-03-19T21:50:47.000Z",
+        "story": "Another interesting note is that Parsoid, the nodejs service that turns wikitext into the Visual Editor, is being ported from js to PHP."
+    },
+    {
+        "_id": "5e73f1a5628f751a341181df",
+        "title": "Netflix urged by EU to slow streaming to save internet",
+        "author": "iptrans",
+        "date": "2020-03-19T20:09:27.000Z",
+        "story": "No they don’t. Technological advances make copper and radio carry more bandwidth OVER SHORTER DISTANCES.<p>This is why WISP are deploying micro POPs and cellular carriers are deploying small cells.<p>This is a huge difference compared to fiber where the same infrastructure will scale from 100M to 100G.<p>Forklift upgrades and truck rolls are expensive. Copper and radio aren’t like fiber where swapping a $9 optic for a $19 optic makes you go from 1G to 10G. All this makes a massive difference in TCO in fiber’s favor over the lifetime of the assets.<p>Providing fixed line service over copper or radio is silly in the long term as each upgrade requires you to build out fiber closer and closer to the end user bit by bit. Better to do it at once and reap the benefits, both in terms of service and costs.<p>Not deploying faster signaling in copper networks is also a misstatement. Cable networks are busy splitting nodes, deploying more fiber and upgrading to faster versions of DOCSIS all the time.<p>Most telcos have already transitioned to fiber and are not building out copper anymore. Here the US is an outlier, as the telcos here are just milking the existing copper assets for revenues until they exit the business."
+    },
+    {
+        "_id": "5e73f1a5628f751a341181e0",
+        "title": "Anatomy of My Kubernetes Cluster",
+        "author": "rcarmo",
+        "date": "2020-03-19T19:34:42.000Z",
+        "story": "The logs don&#x27;t say much. It&#x27;s mostly the API server getting hammered by nodes and various components."
+    },
+    {
+        "_id": "5e73f1a5628f751a341181e1",
+        "title": "Using Visual Studio Code for Qt Applications",
+        "author": "tinybug",
+        "date": "2020-03-19T11:45:38.000Z",
+        "story": "It&#x27;s simple, light weight, a lot of cool extensions. I use vscode for developing nodejs, python, ffmpeg, Qt, frontend...it&#x27;s my all in one IDE."
+    },
+    {
+        "_id": "5e73f1a5628f751a341181e2",
+        "title": "Ask HN: Have you been laid off?",
+        "author": "1st1",
+        "date": "2020-03-18T23:16:52.000Z",
+        "story": "Really sorry for everyone affected.<p>EdgeDB Inc (of which I&#x27;m the CEO) is hiring. We&#x27;re well funded early stage startup with a mission to build the next generation database. We&#x27;re looking for engineers with extensive knowledge of nodejs&#x2F;typescript&#x2F;react and cloud engineers with knowledge of rust&#x2F;python&#x2F;k8s&#x2F;golang. Email me at yury [at] edgedb.com.  See also <a href=\"https:&#x2F;&#x2F;edgedb.com&#x2F;careers&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;edgedb.com&#x2F;careers&#x2F;</a>"
+    },
+    {
+        "_id": "5e73f1a5628f751a341181e3",
+        "title": "MacBook Air",
+        "author": "luxuryballs",
+        "date": "2020-03-18T16:51:16.000Z",
+        "story": "I picked up the new 2018 Air right after the redesign, 16gb and 512 ssd model. I have had no problems with xcode doing iOS dev (even using simulator on occasion), vscode and nodejs&#x2F;redis&#x2F;mysql working fine, also no problems running windows in parallels desktop, it’s super fast and quiet!<p>Great machine, only wish I had waited for the true tone and keyboard redesign but those are minor, have grown to love the keyboard."
+    },
+    {
+        "_id": "5e73f1a5628f751a341181e4",
+        "title": "NPM Is Joining GitHub",
+        "author": "skrebbel",
+        "date": "2020-03-18T15:44:04.000Z",
+        "story": "That&#x27;s not what I asked.<p>You said they controlled nodejs, and that they somehow earned money by controlling nodejs. I think that neither of those has ever been the case."
+    },
+    {
+        "_id": "5e73f1a5628f751a341181e5",
+        "title": "Apple announces MacBook Air with scissor switch keyboard and doubled performance",
+        "author": "qayxc",
+        "date": "2020-03-18T14:21:51.000Z",
+        "story": "NodeJS is, but neither modules nor backends have to be.\nIt&#x27;s quite common to spin up a bunch of docker containers that provide databases and backends locally.<p>This is the point at which the MBA stops being a productive environment. I&#x27;m not saying this has to be the case for every project, but if your team uses local dev environments, it&#x27;s quasi standard procedure at this point."
+    },
+    {
+        "_id": "5e73f1a5628f751a341181e6",
+        "title": "Apple announces MacBook Air with scissor switch keyboard and doubled performance",
+        "author": "fastball",
+        "date": "2020-03-18T14:15:07.000Z",
+        "story": "I thought NodeJS was single-threaded?"
+    },
+    {
+        "_id": "5e73f1a5628f751a341181e7",
+        "title": "Apple announces MacBook Air with scissor switch keyboard and doubled performance",
+        "author": "davedx",
+        "date": "2020-03-18T13:46:59.000Z",
+        "story": "I have a 2017 Macbook Pro and the main project I work on brings it to its knees. This is a front end project with a nodejs graphql server, TypeScript, eslint, VS.Code, webpack. I think actually the linting is the worst CPU drain, but all in all with the graphql server and front end tooling running at once, it makes my laptop slower than running the .NET core back end it connects to.<p>Kind of annoying. Working with a simple create-react-app project with TypeScript is fine though."
+    },
+    {
+        "_id": "5e73f1a5628f751a341181e8",
+        "title": "Java 14 GA",
+        "author": "sh87",
+        "date": "2020-03-18T00:04:47.000Z",
+        "story": "I totally agree with this. I have worked in stable, long term, revenue generating projects that relied on java and its slow stable releases. I now cherish that we could focus on features and not have a &quot;Migrate to Java x.x&quot; story looming upon us.<p>With NodeJs, its a semi-annual affair to move and migrate or face unexpected broken &#x27;npm install&#x27; commands. Fix the tooling, fix CI&#x2F;CD, ignore warnings, application upgrades now require installing newer Node versions, no backward compatibility guarantees of any kind. Its a fool&#x27;s errand.<p>I hate to see Java go this route. I don&#x27;t think this will end well for the Java ecosystem."
+    },
+    {
+        "_id": "5e73f1a5628f751a341181e9",
+        "title": "NPM Is Joining GitHub",
+        "author": "teknopaul",
+        "date": "2020-03-17T23:16:44.000Z",
+        "story": "And they will, to the extent possible by law.<p>And they will ask you, under the guise of 2fa, to confirm thier suspicions.<p>And $7 a month gets plently of new upgrade options offered.<p>All talk of mirrors gets brushed under the carpet.<p>Microsoft pwn all nodejs code except core and those savvy enough to spot this coming and distribute via debian repos."
+    },
+    {
+        "_id": "5e73f1a5628f751a341181ea",
+        "title": "NPM Is Joining GitHub",
+        "author": "teknopaul",
+        "date": "2020-03-17T23:08:26.000Z",
+        "story": "It means Npm always wanted to be the &quot;one true source&quot; for nodejs code. No matter who wrote the code.<p>No interest in mirrors from day one.<p>Npm sold out to Microsoft and got paid. All that free community effort to stop Npms &quot;crashiness&quot; got sold to Microsoft for dollar.<p>Nodejs went to the Linux foundation.<p>Npm went to Microsoft.<p>Suprised?"
+    },
+    {
+        "_id": "5e73f1a5628f751a341181eb",
+        "title": "NPM Is Joining GitHub",
+        "author": "paavohtl",
+        "date": "2020-03-17T12:43:32.000Z",
+        "story": "&gt; Npm could easily be an open source client<p>The NPM client is and has always been open source: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;npm&#x2F;cli\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;npm&#x2F;cli</a>.<p>&gt; Npm wanted to control nodejs and make money out it. And they have.<p>In what way, other than offering private package hosting for enterprises?"
+    },
+    {
+        "_id": "5e73f1a5628f751a341181ec",
+        "title": "NPM Is Joining GitHub",
+        "author": "skrebbel",
+        "date": "2020-03-17T12:39:08.000Z",
+        "story": "&gt; Npm wanted to control nodejs and make money out it.<p>What does this even mean?"
+    },
+    {
+        "_id": "5e73f1a5628f751a341181ed",
+        "title": "Building a dashboards for any Node JavaScript application",
+        "author": "pavlovdog",
+        "date": "2020-03-17T12:07:35.000Z",
+        "story": null
+    },
+    {
+        "_id": "5e73f1a5628f751a341181ee",
+        "title": "NPM Is Joining GitHub",
+        "author": "teknopaul",
+        "date": "2020-03-17T09:31:06.000Z",
+        "story": "&quot;So the important thing is how they make npm economically viable.&quot;<p>Thats not the important thing, thats the problem.  Npm could easily be an open source client. Contain less code and be better. And have a mirors system like every other repo so it does not need money for hosting.<p>Npm wanted to control nodejs and make money out it. And they have.<p>Microsoft purchased that control and plan to make money out of it.<p>This is bad news for OS dev."
+    },
+    {
+        "_id": "5e73f1a5628f751a341181ef",
+        "title": "NPM Is Joining GitHub",
+        "author": "teknopaul",
+        "date": "2020-03-16T23:34:23.000Z",
+        "story": "Imhi Npm is two things a cli tool, and a central repo that tries to be the one and only js repo: to make money from that position. Their infra costs them money only because that was their angle for selling out.<p>Linux repos take the alternative approach to try to get as many mirrors as possible so it can remain free.<p>Microsoft did not buy npm to help it become free. Believe. They bought it because they rekon they can make buck out of it.<p>That buck comes from somewhere.<p>Nodejs going to the Linux foundation was good news.<p>Microsoft buying Npm is bad news."
+    },
+    {
+        "_id": "5e73f1a5628f751a341181f0",
+        "title": "Ask HN: Wish to help out in the HEALTH sector",
+        "author": "eagerNewb",
+        "date": "2020-03-16T21:35:01.000Z",
+        "story": null
+    },
+    {
+        "_id": "5e73f1a5628f751a341181f1",
+        "title": "NPM Is Joining GitHub",
+        "author": "no_wizard",
+        "date": "2020-03-16T18:06:33.000Z",
+        "story": "I see this as a straightforward play, simply put, I think (to summarize, perhaps a little to broadly)<p>- They want to sell Azure Services<p>- Most (if not all) NPM packages already live on github<p>- NPM has a business revolving around package management, including private npm instances and increasingly around node&#x2F;package security<p>- This being primarily a business that will sell to has-money businesses (e.g., medium to large businesses, Fortune 500 corporations etc)<p>So, given all of the above, it makes sense to have a vertical selling into one of the fastest growing package management ecosystems where you can be the &quot;full stack&quot; provider of developer&#x2F;enterprise tools.<p>I don&#x27;t think its anything beyond this, personally. I expect to see a lot of pushes to integrate with Azure Pipelines, cloud deployment etc. centered around this.<p>I wonder if they&#x27;ll buy Passenger[0] next, its a popular (in my experience) to deploy nodejs applications.<p>[0]<a href=\"https:&#x2F;&#x2F;www.phusionpassenger.com&#x2F;library&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.phusionpassenger.com&#x2F;library&#x2F;</a>"
+    }
