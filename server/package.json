@@ -1,0 +1,26 @@
+{
+  "name": "demo-hackernews",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Simple app that request, once an hour, the latests HackerNews posts about a topic (NodeJS) and allows to delete items from the client. The news are saved into a local MongoDB database.",
+  "homepage": "http://github.com/MarioAraya/demo-hackernews",
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "mongodb": "^3.5.5",
+    "morgan": "~1.9.0",
+    "node-schedule": "^1.3.2",
+    "pug": "2.0.0-beta11",
+    "request": "^2.87.0",
+    "mongoose": "^5.9.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

@@ -1,0 +1,817 @@
+{
+    "status": 200,
+    "res": true,
+    "title": "HN News",
+    "subtitle": "We <3 hacker news!",
+    "feed": [{
+        "_id": "5e7435f494177908a2fbf64d",
+        "_highlightResult": {
+            "author": {
+                "value": "rcarmo",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "comment_text": {
+                "value": "The logs don't say much. It's mostly the API server getting hammered by <em>nodes</em> and various components.",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": ["nodejs"]
+            },
+            "story_title": {
+                "value": "Anatomy of My Kubernetes Cluster",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "story_url": {
+                "value": "https://ttt.io/anatomy-of-my-kubernetes-cluster",
+                "matchLevel": "none",
+                "matchedWords": []
+            }
+        },
+        "_tags": ["comment", "author_rcarmo", "story_22617684"],
+        "author": "rcarmo",
+        "comment_text": "The logs don&#x27;t say much. It&#x27;s mostly the API server getting hammered by nodes and various components.",
+        "created_at": "2020-03-19T19:34:42.000Z",
+        "created_at_i": 1584646482,
+        "num_comments": null,
+        "objectID": "22630811",
+        "parent_id": 22624757,
+        "points": null,
+        "story_id": 22617684,
+        "story_text": null,
+        "story_title": "Anatomy of My Kubernetes Cluster",
+        "story_url": "https://ttt.io/anatomy-of-my-kubernetes-cluster",
+        "title": null,
+        "url": null,
+        "deleted": false
+    }, {
+        "_id": "5e7435f494177908a2fbf64f",
+        "_highlightResult": {
+            "author": {
+                "value": "JdeBP",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "comment_text": {
+                "value": "If you want more than just my perspective, look to Laurent Bercot's Supervision Mailing list.  M. Bercot is of course there, as well as a few other people.<p>* <a href=\"http://www.skarnet.org/lists.html\" rel=\"nofollow\">http://www.skarnet.org/lists.html</a><p>As for the filenames, yes the original reason was for compatibility with multilog, and of course all of the <i>other</i> tools that can process these log directories.  I did set out, after all, to produce a cyclog workalike, with lessons from multilog incorporated.  Note that said tools might not deal well with log directories where the same log file is available via two names, both &quot;current&quot; and something else.<p>Moreover, if you go and look at follow-log-directories you can see an additional benefit that it very efficiently skips its cursors over old files without having to look at their i-<em>nodes</em> because it knows that the filename is guaranteed to be a timestamp at or after the last log entry in the file.<p>Furthermore, if you go and read the cyclog manual, you'll find out why using the w permission bit had problems.  (-:<p>1.41 is building up changes, by the way.",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": ["nodejs"]
+            },
+            "story_title": {
+                "value": "Linux maintains bugs: The real reason ifconfig on Linux is deprecated (2018)",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "story_url": {
+                "value": "https://blog.farhan.codes/2018/06/25/linux-maintains-bugs-the-real-reason-ifconfig-on-linux-is-deprecated/",
+                "matchLevel": "none",
+                "matchedWords": []
+            }
+        },
+        "_tags": ["comment", "author_JdeBP", "story_22626346"],
+        "author": "JdeBP",
+        "comment_text": "If you want more than just my perspective, look to Laurent Bercot&#x27;s Supervision Mailing list.  M. Bercot is of course there, as well as a few other people.<p>* <a href=\"http:&#x2F;&#x2F;www.skarnet.org&#x2F;lists.html\" rel=\"nofollow\">http:&#x2F;&#x2F;www.skarnet.org&#x2F;lists.html</a><p>As for the filenames, yes the original reason was for compatibility with multilog, and of course all of the <i>other</i> tools that can process these log directories.  I did set out, after all, to produce a cyclog workalike, with lessons from multilog incorporated.  Note that said tools might not deal well with log directories where the same log file is available via two names, both &quot;current&quot; and something else.<p>Moreover, if you go and look at follow-log-directories you can see an additional benefit that it very efficiently skips its cursors over old files without having to look at their i-nodes because it knows that the filename is guaranteed to be a timestamp at or after the last log entry in the file.<p>Furthermore, if you go and read the cyclog manual, you&#x27;ll find out why using the w permission bit had problems.  (-:<p>1.41 is building up changes, by the way.",
+        "created_at": "2020-03-20T01:21:32.000Z",
+        "created_at_i": 1584667292,
+        "num_comments": null,
+        "objectID": "22633616",
+        "parent_id": 22632555,
+        "points": null,
+        "story_id": 22626346,
+        "story_text": null,
+        "story_title": "Linux maintains bugs: The real reason ifconfig on Linux is deprecated (2018)",
+        "story_url": "https://blog.farhan.codes/2018/06/25/linux-maintains-bugs-the-real-reason-ifconfig-on-linux-is-deprecated/",
+        "title": null,
+        "url": null,
+        "deleted": false
+    }, {
+        "_id": "5e7435f494177908a2fbf64e",
+        "_highlightResult": {
+            "author": {
+                "value": "favorited",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "comment_text": {
+                "value": "And a few years later, there were several PS3 supercomputer clusters.  The US Air Force built a supercomputer out of PS3 <em>nodes</em>, and it was the 33rd largest in the world!<p><a href=\"https://en.wikipedia.org/wiki/PlayStation_3_cluster\" rel=\"nofollow\">https://en.wikipedia.org/wiki/PlayStation_3_cluster</a>",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": ["nodejs"]
+            },
+            "story_title": {
+                "value": "PlayStation 5: the specs and the tech",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "story_url": {
+                "value": "https://www.eurogamer.net/articles/digitalfoundry-2020-playstation-5-specs-and-tech-that-deliver-sonys-next-gen-vision",
+                "matchLevel": "none",
+                "matchedWords": []
+            }
+        },
+        "_tags": ["comment", "author_favorited", "story_22627899"],
+        "author": "favorited",
+        "comment_text": "And a few years later, there were several PS3 supercomputer clusters.  The US Air Force built a supercomputer out of PS3 nodes, and it was the 33rd largest in the world!<p><a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;PlayStation_3_cluster\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;PlayStation_3_cluster</a>",
+        "created_at": "2020-03-19T23:28:12.000Z",
+        "created_at_i": 1584660492,
+        "num_comments": null,
+        "objectID": "22632883",
+        "parent_id": 22632802,
+        "points": null,
+        "story_id": 22627899,
+        "story_text": null,
+        "story_title": "PlayStation 5: the specs and the tech",
+        "story_url": "https://www.eurogamer.net/articles/digitalfoundry-2020-playstation-5-specs-and-tech-that-deliver-sonys-next-gen-vision",
+        "title": null,
+        "url": null,
+        "deleted": false
+    }, {
+        "_id": "5e7435f494177908a2fbf653",
+        "_highlightResult": {
+            "author": {
+                "value": "tinybug",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "comment_text": {
+                "value": "It's simple, light weight, a lot of cool extensions. I use vscode for developing <em>nodejs</em>, python, ffmpeg, Qt, frontend...it's my all in one IDE.",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": ["nodejs"]
+            },
+            "story_title": {
+                "value": "Using Visual Studio Code for Qt Applications",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "story_url": {
+                "value": "https://www.kdab.com/using-visual-studio-code-for-qt-apps-pt-1/",
+                "matchLevel": "none",
+                "matchedWords": []
+            }
+        },
+        "_tags": ["comment", "author_tinybug", "story_22615102"],
+        "author": "tinybug",
+        "comment_text": "It&#x27;s simple, light weight, a lot of cool extensions. I use vscode for developing nodejs, python, ffmpeg, Qt, frontend...it&#x27;s my all in one IDE.",
+        "created_at": "2020-03-19T11:45:38.000Z",
+        "created_at_i": 1584618338,
+        "num_comments": null,
+        "objectID": "22626556",
+        "parent_id": 22626405,
+        "points": null,
+        "story_id": 22615102,
+        "story_text": null,
+        "story_title": "Using Visual Studio Code for Qt Applications",
+        "story_url": "https://www.kdab.com/using-visual-studio-code-for-qt-apps-pt-1/",
+        "title": null,
+        "url": null,
+        "deleted": false
+    }, {
+        "_id": "5e7435f494177908a2fbf654",
+        "_highlightResult": {
+            "author": {
+                "value": "1st1",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "comment_text": {
+                "value": "Really sorry for everyone affected.<p>EdgeDB Inc (of which I'm the CEO) is hiring. We're well funded early stage startup with a mission to build the next generation database. We're looking for engineers with extensive knowledge of <em>nodejs</em>/typescript/react and cloud engineers with knowledge of rust/python/k8s/golang. Email me at yury [at] edgedb.com.  See also <a href=\"https://edgedb.com/careers/\" rel=\"nofollow\">https://edgedb.com/careers/</a>",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": ["nodejs"]
+            },
+            "story_title": {
+                "value": "Ask HN: Have you been laid off?",
+                "matchLevel": "none",
+                "matchedWords": []
+            }
+        },
+        "_tags": ["comment", "author_1st1", "story_22618788"],
+        "author": "1st1",
+        "comment_text": "Really sorry for everyone affected.<p>EdgeDB Inc (of which I&#x27;m the CEO) is hiring. We&#x27;re well funded early stage startup with a mission to build the next generation database. We&#x27;re looking for engineers with extensive knowledge of nodejs&#x2F;typescript&#x2F;react and cloud engineers with knowledge of rust&#x2F;python&#x2F;k8s&#x2F;golang. Email me at yury [at] edgedb.com.  See also <a href=\"https:&#x2F;&#x2F;edgedb.com&#x2F;careers&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;edgedb.com&#x2F;careers&#x2F;</a>",
+        "created_at": "2020-03-18T23:16:52.000Z",
+        "created_at_i": 1584573412,
+        "num_comments": null,
+        "objectID": "22622511",
+        "parent_id": 22618788,
+        "points": null,
+        "story_id": 22618788,
+        "story_text": null,
+        "story_title": "Ask HN: Have you been laid off?",
+        "story_url": null,
+        "title": null,
+        "url": null,
+        "deleted": false
+    }, {
+        "_id": "5e7435f494177908a2fbf655",
+        "_highlightResult": {
+            "author": {
+                "value": "iptrans",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "comment_text": {
+                "value": "No they don’t. Technological advances make copper and radio carry more bandwidth OVER SHORTER DISTANCES.<p>This is why WISP are deploying micro POPs and cellular carriers are deploying small cells.<p>This is a huge difference compared to fiber where the same infrastructure will scale from 100M to 100G.<p>Forklift upgrades and truck rolls are expensive. Copper and radio aren’t like fiber where swapping a $9 optic for a $19 optic makes you go from 1G to 10G. All this makes a massive difference in TCO in fiber’s favor over the lifetime of the assets.<p>Providing fixed line service over copper or radio is silly in the long term as each upgrade requires you to build out fiber closer and closer to the end user bit by bit. Better to do it at once and reap the benefits, both in terms of service and costs.<p>Not deploying faster signaling in copper networks is also a misstatement. Cable networks are busy splitting <em>nodes</em>, deploying more fiber and upgrading to faster versions of DOCSIS all the time.<p>Most telcos have already transitioned to fiber and are not building out copper anymore. Here the US is an outlier, as the telcos here are just milking the existing copper assets for revenues until they exit the business.",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": ["nodejs"]
+            },
+            "story_title": {
+                "value": "Netflix urged by EU to slow streaming to save internet",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "story_url": {
+                "value": "https://edition.cnn.com/2020/03/19/tech/netflix-internet-overload-eu/index.html",
+                "matchLevel": "none",
+                "matchedWords": []
+            }
+        },
+        "_tags": ["comment", "author_iptrans", "story_22626491"],
+        "author": "iptrans",
+        "comment_text": "No they don’t. Technological advances make copper and radio carry more bandwidth OVER SHORTER DISTANCES.<p>This is why WISP are deploying micro POPs and cellular carriers are deploying small cells.<p>This is a huge difference compared to fiber where the same infrastructure will scale from 100M to 100G.<p>Forklift upgrades and truck rolls are expensive. Copper and radio aren’t like fiber where swapping a $9 optic for a $19 optic makes you go from 1G to 10G. All this makes a massive difference in TCO in fiber’s favor over the lifetime of the assets.<p>Providing fixed line service over copper or radio is silly in the long term as each upgrade requires you to build out fiber closer and closer to the end user bit by bit. Better to do it at once and reap the benefits, both in terms of service and costs.<p>Not deploying faster signaling in copper networks is also a misstatement. Cable networks are busy splitting nodes, deploying more fiber and upgrading to faster versions of DOCSIS all the time.<p>Most telcos have already transitioned to fiber and are not building out copper anymore. Here the US is an outlier, as the telcos here are just milking the existing copper assets for revenues until they exit the business.",
+        "created_at": "2020-03-19T20:09:27.000Z",
+        "created_at_i": 1584648567,
+        "num_comments": null,
+        "objectID": "22631148",
+        "parent_id": 22630438,
+        "points": null,
+        "story_id": 22626491,
+        "story_text": null,
+        "story_title": "Netflix urged by EU to slow streaming to save internet",
+        "story_url": "https://edition.cnn.com/2020/03/19/tech/netflix-internet-overload-eu/index.html",
+        "title": null,
+        "url": null,
+        "deleted": false
+    }, {
+        "_id": "5e7435f494177908a2fbf657",
+        "_highlightResult": {
+            "author": {
+                "value": "luxuryballs",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "comment_text": {
+                "value": "I picked up the new 2018 Air right after the redesign, 16gb and 512 ssd model. I have had no problems with xcode doing iOS dev (even using simulator on occasion), vscode and <em>nodejs</em>/redis/mysql working fine, also no problems running windows in parallels desktop, it’s super fast and quiet!<p>Great machine, only wish I had waited for the true tone and keyboard redesign but those are minor, have grown to love the keyboard.",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": ["nodejs"]
+            },
+            "story_title": {
+                "value": "MacBook Air",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "story_url": {
+                "value": "https://www.apple.com/macbook-air/",
+                "matchLevel": "none",
+                "matchedWords": []
+            }
+        },
+        "_tags": ["comment", "author_luxuryballs", "story_22615719"],
+        "author": "luxuryballs",
+        "comment_text": "I picked up the new 2018 Air right after the redesign, 16gb and 512 ssd model. I have had no problems with xcode doing iOS dev (even using simulator on occasion), vscode and nodejs&#x2F;redis&#x2F;mysql working fine, also no problems running windows in parallels desktop, it’s super fast and quiet!<p>Great machine, only wish I had waited for the true tone and keyboard redesign but those are minor, have grown to love the keyboard.",
+        "created_at": "2020-03-18T16:51:16.000Z",
+        "created_at_i": 1584550276,
+        "num_comments": null,
+        "objectID": "22618661",
+        "parent_id": 22617892,
+        "points": null,
+        "story_id": 22615719,
+        "story_text": null,
+        "story_title": "MacBook Air",
+        "story_url": "https://www.apple.com/macbook-air/",
+        "title": null,
+        "url": null,
+        "deleted": false
+    }, {
+        "_id": "5e7435f494177908a2fbf656",
+        "_highlightResult": {
+            "author": {
+                "value": "mch82",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "comment_text": {
+                "value": "Another interesting note is that Parsoid, the <em>nodejs</em> service that turns wikitext into the Visual Editor, is being ported from js to PHP.",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": ["nodejs"]
+            },
+            "story_title": {
+                "value": "RFC: Adopt a modern JavaScript framework for use with MediaWiki",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "story_url": {
+                "value": "https://phabricator.wikimedia.org/T241180",
+                "matchLevel": "none",
+                "matchedWords": []
+            }
+        },
+        "_tags": ["comment", "author_mch82", "story_22625556"],
+        "author": "mch82",
+        "comment_text": "Another interesting note is that Parsoid, the nodejs service that turns wikitext into the Visual Editor, is being ported from js to PHP.",
+        "created_at": "2020-03-19T21:50:47.000Z",
+        "created_at_i": 1584654647,
+        "num_comments": null,
+        "objectID": "22632130",
+        "parent_id": 22630061,
+        "points": null,
+        "story_id": 22625556,
+        "story_text": null,
+        "story_title": "RFC: Adopt a modern JavaScript framework for use with MediaWiki",
+        "story_url": "https://phabricator.wikimedia.org/T241180",
+        "title": null,
+        "url": null,
+        "deleted": false
+    }, {
+        "_id": "5e7435f494177908a2fbf65b",
+        "_highlightResult": {
+            "author": {
+                "value": "davedx",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "comment_text": {
+                "value": "I have a 2017 Macbook Pro and the main project I work on brings it to its knees. This is a front end project with a <em>nodejs</em> graphql server, TypeScript, eslint, VS.Code, webpack. I think actually the linting is the worst CPU drain, but all in all with the graphql server and front end tooling running at once, it makes my laptop slower than running the .NET core back end it connects to.<p>Kind of annoying. Working with a simple create-react-app project with TypeScript is fine though.",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": ["nodejs"]
+            },
+            "story_title": {
+                "value": "Apple announces MacBook Air with scissor switch keyboard and doubled performance",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "story_url": {
+                "value": "https://www.apple.com/macbook-air/",
+                "matchLevel": "none",
+                "matchedWords": []
+            }
+        },
+        "_tags": ["comment", "author_davedx", "story_22615719"],
+        "author": "davedx",
+        "comment_text": "I have a 2017 Macbook Pro and the main project I work on brings it to its knees. This is a front end project with a nodejs graphql server, TypeScript, eslint, VS.Code, webpack. I think actually the linting is the worst CPU drain, but all in all with the graphql server and front end tooling running at once, it makes my laptop slower than running the .NET core back end it connects to.<p>Kind of annoying. Working with a simple create-react-app project with TypeScript is fine though.",
+        "created_at": "2020-03-18T13:46:59.000Z",
+        "created_at_i": 1584539219,
+        "num_comments": null,
+        "objectID": "22616567",
+        "parent_id": 22616107,
+        "points": null,
+        "story_id": 22615719,
+        "story_text": null,
+        "story_title": "Apple announces MacBook Air with scissor switch keyboard and doubled performance",
+        "story_url": "https://www.apple.com/macbook-air/",
+        "title": null,
+        "url": null,
+        "deleted": false
+    }, {
+        "_id": "5e7435f494177908a2fbf65c",
+        "_highlightResult": {
+            "author": {
+                "value": "sh87",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "comment_text": {
+                "value": "I totally agree with this. I have worked in stable, long term, revenue generating projects that relied on java and its slow stable releases. I now cherish that we could focus on features and not have a &quot;Migrate to Java x.x&quot; story looming upon us.<p>With <em>NodeJs</em>, its a semi-annual affair to move and migrate or face unexpected broken 'npm install' commands. Fix the tooling, fix CI/CD, ignore warnings, application upgrades now require installing newer Node versions, no backward compatibility guarantees of any kind. Its a fool's errand.<p>I hate to see Java go this route. I don't think this will end well for the Java ecosystem.",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": ["nodejs"]
+            },
+            "story_title": {
+                "value": "Java 14 GA",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "story_url": {
+                "value": "https://jdk.java.net/14/",
+                "matchLevel": "none",
+                "matchedWords": []
+            }
+        },
+        "_tags": ["comment", "author_sh87", "story_22608424"],
+        "author": "sh87",
+        "comment_text": "I totally agree with this. I have worked in stable, long term, revenue generating projects that relied on java and its slow stable releases. I now cherish that we could focus on features and not have a &quot;Migrate to Java x.x&quot; story looming upon us.<p>With NodeJs, its a semi-annual affair to move and migrate or face unexpected broken &#x27;npm install&#x27; commands. Fix the tooling, fix CI&#x2F;CD, ignore warnings, application upgrades now require installing newer Node versions, no backward compatibility guarantees of any kind. Its a fool&#x27;s errand.<p>I hate to see Java go this route. I don&#x27;t think this will end well for the Java ecosystem.",
+        "created_at": "2020-03-18T00:04:47.000Z",
+        "created_at_i": 1584489887,
+        "num_comments": null,
+        "objectID": "22612096",
+        "parent_id": 22611341,
+        "points": null,
+        "story_id": 22608424,
+        "story_text": null,
+        "story_title": "Java 14 GA",
+        "story_url": "https://jdk.java.net/14/",
+        "title": null,
+        "url": null,
+        "deleted": false
+    }, {
+        "_id": "5e7435f494177908a2fbf65d",
+        "_highlightResult": {
+            "author": {
+                "value": "qayxc",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "comment_text": {
+                "value": "<em>NodeJS</em> is, but neither modules nor backends have to be.\nIt's quite common to spin up a bunch of docker containers that provide databases and backends locally.<p>This is the point at which the MBA stops being a productive environment. I'm not saying this has to be the case for every project, but if your team uses local dev environments, it's quasi standard procedure at this point.",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": ["nodejs"]
+            },
+            "story_title": {
+                "value": "Apple announces MacBook Air with scissor switch keyboard and doubled performance",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "story_url": {
+                "value": "https://www.apple.com/macbook-air/",
+                "matchLevel": "none",
+                "matchedWords": []
+            }
+        },
+        "_tags": ["comment", "author_qayxc", "story_22615719"],
+        "author": "qayxc",
+        "comment_text": "NodeJS is, but neither modules nor backends have to be.\nIt&#x27;s quite common to spin up a bunch of docker containers that provide databases and backends locally.<p>This is the point at which the MBA stops being a productive environment. I&#x27;m not saying this has to be the case for every project, but if your team uses local dev environments, it&#x27;s quasi standard procedure at this point.",
+        "created_at": "2020-03-18T14:21:51.000Z",
+        "created_at_i": 1584541311,
+        "num_comments": null,
+        "objectID": "22616942",
+        "parent_id": 22616858,
+        "points": null,
+        "story_id": 22615719,
+        "story_text": null,
+        "story_title": "Apple announces MacBook Air with scissor switch keyboard and doubled performance",
+        "story_url": "https://www.apple.com/macbook-air/",
+        "title": null,
+        "url": null,
+        "deleted": false
+    }, {
+        "_id": "5e7435f494177908a2fbf660",
+        "_highlightResult": {
+            "author": {
+                "value": "fastball",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "comment_text": {
+                "value": "I thought <em>NodeJS</em> was single-threaded?",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": ["nodejs"]
+            },
+            "story_title": {
+                "value": "Apple announces MacBook Air with scissor switch keyboard and doubled performance",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "story_url": {
+                "value": "https://www.apple.com/macbook-air/",
+                "matchLevel": "none",
+                "matchedWords": []
+            }
+        },
+        "_tags": ["comment", "author_fastball", "story_22615719"],
+        "author": "fastball",
+        "comment_text": "I thought NodeJS was single-threaded?",
+        "created_at": "2020-03-18T14:15:07.000Z",
+        "created_at_i": 1584540907,
+        "num_comments": null,
+        "objectID": "22616858",
+        "parent_id": 22616416,
+        "points": null,
+        "story_id": 22615719,
+        "story_text": null,
+        "story_title": "Apple announces MacBook Air with scissor switch keyboard and doubled performance",
+        "story_url": "https://www.apple.com/macbook-air/",
+        "title": null,
+        "url": null,
+        "deleted": false
+    }, {
+        "_id": "5e7435f494177908a2fbf662",
+        "_highlightResult": {
+            "title": {
+                "value": "Building a dashboards for any Node JavaScript application",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "url": {
+                "value": "https://sergeypotekhin.com/visualizing-data-from-the-<em>node-js</em>-app/",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": ["nodejs"]
+            },
+            "author": {
+                "value": "pavlovdog",
+                "matchLevel": "none",
+                "matchedWords": []
+            }
+        },
+        "_tags": ["story", "author_pavlovdog", "story_22604069"],
+        "author": "pavlovdog",
+        "comment_text": null,
+        "created_at": "2020-03-17T12:07:35.000Z",
+        "created_at_i": 1584446855,
+        "num_comments": 0,
+        "objectID": "22604069",
+        "parent_id": null,
+        "points": 1,
+        "story_id": null,
+        "story_text": null,
+        "story_title": null,
+        "story_url": null,
+        "title": "Building a dashboards for any Node JavaScript application",
+        "url": "https://sergeypotekhin.com/visualizing-data-from-the-node-js-app/",
+        "deleted": false
+    }, {
+        "_id": "5e7435f494177908a2fbf664",
+        "_highlightResult": {
+            "author": {
+                "value": "teknopaul",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "comment_text": {
+                "value": "It means Npm always wanted to be the &quot;one true source&quot; for <em>nodejs</em> code. No matter who wrote the code.<p>No interest in mirrors from day one.<p>Npm sold out to Microsoft and got paid. All that free community effort to stop Npms &quot;crashiness&quot; got sold to Microsoft for dollar.<p><em>Nodejs</em> went to the Linux foundation.<p>Npm went to Microsoft.<p>Suprised?",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": ["nodejs"]
+            },
+            "story_title": {
+                "value": "NPM Is Joining GitHub",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "story_url": {
+                "value": "https://github.blog/2020-03-16-npm-is-joining-github/",
+                "matchLevel": "none",
+                "matchedWords": []
+            }
+        },
+        "_tags": ["comment", "author_teknopaul", "story_22594549"],
+        "author": "teknopaul",
+        "comment_text": "It means Npm always wanted to be the &quot;one true source&quot; for nodejs code. No matter who wrote the code.<p>No interest in mirrors from day one.<p>Npm sold out to Microsoft and got paid. All that free community effort to stop Npms &quot;crashiness&quot; got sold to Microsoft for dollar.<p>Nodejs went to the Linux foundation.<p>Npm went to Microsoft.<p>Suprised?",
+        "created_at": "2020-03-17T23:08:26.000Z",
+        "created_at_i": 1584486506,
+        "num_comments": null,
+        "objectID": "22611633",
+        "parent_id": 22604282,
+        "points": null,
+        "story_id": 22594549,
+        "story_text": null,
+        "story_title": "NPM Is Joining GitHub",
+        "story_url": "https://github.blog/2020-03-16-npm-is-joining-github/",
+        "title": null,
+        "url": null,
+        "deleted": false
+    }, {
+        "_id": "5e7435f494177908a2fbf666",
+        "_highlightResult": {
+            "author": {
+                "value": "teknopaul",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "comment_text": {
+                "value": "Imhi Npm is two things a cli tool, and a central repo that tries to be the one and only js repo: to make money from that position. Their infra costs them money only because that was their angle for selling out.<p>Linux repos take the alternative approach to try to get as many mirrors as possible so it can remain free.<p>Microsoft did not buy npm to help it become free. Believe. They bought it because they rekon they can make buck out of it.<p>That buck comes from somewhere.<p><em>Nodejs</em> going to the Linux foundation was good news.<p>Microsoft buying Npm is bad news.",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": ["nodejs"]
+            },
+            "story_title": {
+                "value": "NPM Is Joining GitHub",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "story_url": {
+                "value": "https://github.blog/2020-03-16-npm-is-joining-github/",
+                "matchLevel": "none",
+                "matchedWords": []
+            }
+        },
+        "_tags": ["comment", "author_teknopaul", "story_22594549"],
+        "author": "teknopaul",
+        "comment_text": "Imhi Npm is two things a cli tool, and a central repo that tries to be the one and only js repo: to make money from that position. Their infra costs them money only because that was their angle for selling out.<p>Linux repos take the alternative approach to try to get as many mirrors as possible so it can remain free.<p>Microsoft did not buy npm to help it become free. Believe. They bought it because they rekon they can make buck out of it.<p>That buck comes from somewhere.<p>Nodejs going to the Linux foundation was good news.<p>Microsoft buying Npm is bad news.",
+        "created_at": "2020-03-16T23:34:23.000Z",
+        "created_at_i": 1584401663,
+        "num_comments": null,
+        "objectID": "22599516",
+        "parent_id": 22599260,
+        "points": null,
+        "story_id": 22594549,
+        "story_text": null,
+        "story_title": "NPM Is Joining GitHub",
+        "story_url": "https://github.blog/2020-03-16-npm-is-joining-github/",
+        "title": null,
+        "url": null,
+        "deleted": false
+    }, {
+        "_id": "5e7435f494177908a2fbf667",
+        "_highlightResult": {
+            "author": {
+                "value": "paavohtl",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "comment_text": {
+                "value": "&gt; Npm could easily be an open source client<p>The NPM client is and has always been open source: <a href=\"https://github.com/npm/cli\" rel=\"nofollow\">https://github.com/npm/cli</a>.<p>&gt; Npm wanted to control <em>nodejs</em> and make money out it. And they have.<p>In what way, other than offering private package hosting for enterprises?",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": ["nodejs"]
+            },
+            "story_title": {
+                "value": "NPM Is Joining GitHub",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "story_url": {
+                "value": "https://github.blog/2020-03-16-npm-is-joining-github/",
+                "matchLevel": "none",
+                "matchedWords": []
+            }
+        },
+        "_tags": ["comment", "author_paavohtl", "story_22594549"],
+        "author": "paavohtl",
+        "comment_text": "&gt; Npm could easily be an open source client<p>The NPM client is and has always been open source: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;npm&#x2F;cli\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;npm&#x2F;cli</a>.<p>&gt; Npm wanted to control nodejs and make money out it. And they have.<p>In what way, other than offering private package hosting for enterprises?",
+        "created_at": "2020-03-17T12:43:32.000Z",
+        "created_at_i": 1584449012,
+        "num_comments": null,
+        "objectID": "22604324",
+        "parent_id": 22603181,
+        "points": null,
+        "story_id": 22594549,
+        "story_text": null,
+        "story_title": "NPM Is Joining GitHub",
+        "story_url": "https://github.blog/2020-03-16-npm-is-joining-github/",
+        "title": null,
+        "url": null,
+        "deleted": false
+    }, {
+        "_id": "5e7435f494177908a2fbf66a",
+        "_highlightResult": {
+            "author": {
+                "value": "skrebbel",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "comment_text": {
+                "value": "That's not what I asked.<p>You said they controlled <em>nodejs</em>, and that they somehow earned money by controlling <em>nodejs</em>. I think that neither of those has ever been the case.",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": ["nodejs"]
+            },
+            "story_title": {
+                "value": "NPM Is Joining GitHub",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "story_url": {
+                "value": "https://github.blog/2020-03-16-npm-is-joining-github/",
+                "matchLevel": "none",
+                "matchedWords": []
+            }
+        },
+        "_tags": ["comment", "author_skrebbel", "story_22594549"],
+        "author": "skrebbel",
+        "comment_text": "That&#x27;s not what I asked.<p>You said they controlled nodejs, and that they somehow earned money by controlling nodejs. I think that neither of those has ever been the case.",
+        "created_at": "2020-03-18T15:44:04.000Z",
+        "created_at_i": 1584546244,
+        "num_comments": null,
+        "objectID": "22617870",
+        "parent_id": 22611633,
+        "points": null,
+        "story_id": 22594549,
+        "story_text": null,
+        "story_title": "NPM Is Joining GitHub",
+        "story_url": "https://github.blog/2020-03-16-npm-is-joining-github/",
+        "title": null,
+        "url": null,
+        "deleted": false
+    }, {
+        "_id": "5e7435f494177908a2fbf66c",
+        "_highlightResult": {
+            "author": {
+                "value": "teknopaul",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "comment_text": {
+                "value": "And they will, to the extent possible by law.<p>And they will ask you, under the guise of 2fa, to confirm thier suspicions.<p>And $7 a month gets plently of new upgrade options offered.<p>All talk of mirrors gets brushed under the carpet.<p>Microsoft pwn all <em>nodejs</em> code except core and those savvy enough to spot this coming and distribute via debian repos.",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": ["nodejs"]
+            },
+            "story_title": {
+                "value": "NPM Is Joining GitHub",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "story_url": {
+                "value": "https://github.blog/2020-03-16-npm-is-joining-github/",
+                "matchLevel": "none",
+                "matchedWords": []
+            }
+        },
+        "_tags": ["comment", "author_teknopaul", "story_22594549"],
+        "author": "teknopaul",
+        "comment_text": "And they will, to the extent possible by law.<p>And they will ask you, under the guise of 2fa, to confirm thier suspicions.<p>And $7 a month gets plently of new upgrade options offered.<p>All talk of mirrors gets brushed under the carpet.<p>Microsoft pwn all nodejs code except core and those savvy enough to spot this coming and distribute via debian repos.",
+        "created_at": "2020-03-17T23:16:44.000Z",
+        "created_at_i": 1584487004,
+        "num_comments": null,
+        "objectID": "22611705",
+        "parent_id": 22606913,
+        "points": null,
+        "story_id": 22594549,
+        "story_text": null,
+        "story_title": "NPM Is Joining GitHub",
+        "story_url": "https://github.blog/2020-03-16-npm-is-joining-github/",
+        "title": null,
+        "url": null,
+        "deleted": false
+    }, {
+        "_id": "5e7435f494177908a2fbf66d",
+        "_highlightResult": {
+            "author": {
+                "value": "skrebbel",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "comment_text": {
+                "value": "&gt; Npm wanted to control <em>nodejs</em> and make money out it.<p>What does this even mean?",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": ["nodejs"]
+            },
+            "story_title": {
+                "value": "NPM Is Joining GitHub",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "story_url": {
+                "value": "https://github.blog/2020-03-16-npm-is-joining-github/",
+                "matchLevel": "none",
+                "matchedWords": []
+            }
+        },
+        "_tags": ["comment", "author_skrebbel", "story_22594549"],
+        "author": "skrebbel",
+        "comment_text": "&gt; Npm wanted to control nodejs and make money out it.<p>What does this even mean?",
+        "created_at": "2020-03-17T12:39:08.000Z",
+        "created_at_i": 1584448748,
+        "num_comments": null,
+        "objectID": "22604282",
+        "parent_id": 22603181,
+        "points": null,
+        "story_id": 22594549,
+        "story_text": null,
+        "story_title": "NPM Is Joining GitHub",
+        "story_url": "https://github.blog/2020-03-16-npm-is-joining-github/",
+        "title": null,
+        "url": null,
+        "deleted": false
+    }, {
+        "_id": "5e7435f494177908a2fbf66f",
+        "_highlightResult": {
+            "author": {
+                "value": "teknopaul",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "comment_text": {
+                "value": "&quot;So the important thing is how they make npm economically viable.&quot;<p>Thats not the important thing, thats the problem.  Npm could easily be an open source client. Contain less code and be better. And have a mirors system like every other repo so it does not need money for hosting.<p>Npm wanted to control <em>nodejs</em> and make money out it. And they have.<p>Microsoft purchased that control and plan to make money out of it.<p>This is bad news for OS dev.",
+                "matchLevel": "full",
+                "fullyHighlighted": false,
+                "matchedWords": ["nodejs"]
+            },
+            "story_title": {
+                "value": "NPM Is Joining GitHub",
+                "matchLevel": "none",
+                "matchedWords": []
+            },
+            "story_url": {
+                "value": "https://github.blog/2020-03-16-npm-is-joining-github/",
+                "matchLevel": "none",
+                "matchedWords": []
+            }
+        },
+        "_tags": ["comment", "author_teknopaul", "story_22594549"],
+        "author": "teknopaul",
+        "comment_text": "&quot;So the important thing is how they make npm economically viable.&quot;<p>Thats not the important thing, thats the problem.  Npm could easily be an open source client. Contain less code and be better. And have a mirors system like every other repo so it does not need money for hosting.<p>Npm wanted to control nodejs and make money out it. And they have.<p>Microsoft purchased that control and plan to make money out of it.<p>This is bad news for OS dev.",
+        "created_at": "2020-03-17T09:31:06.000Z",
+        "created_at_i": 1584437466,
+        "num_comments": null,
+        "objectID": "22603181",
+        "parent_id": 22602926,
+        "points": null,
+        "story_id": 22594549,
+        "story_text": null,
+        "story_title": "NPM Is Joining GitHub",
+        "story_url": "https://github.blog/2020-03-16-npm-is-joining-github/",
+        "title": null,
+        "url": null,
+        "deleted": false
+    }]
+}
