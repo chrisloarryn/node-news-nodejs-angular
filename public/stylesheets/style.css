@@ -1,0 +1,44 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.container__header {
+  height: 120px;
+  background: #00B7FF;
+}
+.container__body {
+  background: #eee;
+}
+.row .col-sm-10, .row .col-sm-2 {
+  height: 35px;
+  line-height: 35px;
+  background-color: #fff;
+  border: 1px #ccc;
+}
+.row:hover{
+  background-color: #fafafa;
+}
+.post-title, .post-time {
+  color: #333;
+  font-size: 13pt;
+}
+.post-author {
+  color:#999;
+}
+.delicon {
+  color:red;
+}
+.delicon:hover {
+  color:green;
+}
+.post-author {
+  font-size: 12px;
+}
+.btnDelete {
+  cursor: pointer;
+}
+.hideNews {
+  display: none;
+  visibility: hidden;
+}
