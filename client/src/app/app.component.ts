@@ -29,15 +29,11 @@ export class AppComponent {
 
   ngOnInit() {
     this.newsService.getNews().subscribe((data) => {
-      console.log(data['feed'])
       this.dataSource = data['feed'];
-      console.log(this.dataSource);
     });
   }
 
   getStory(story, title): void {
-    console.log(story);
-    console.log(title);
     const dialogRef = this.dialog.open(ModalComponent, {
       width: '768px',
       data: { story: story, title: title }
