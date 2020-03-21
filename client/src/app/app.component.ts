@@ -47,7 +47,7 @@ export class AppComponent {
   }
 
 
-  displayedColumns: string[] = ['title', 'author', 'date'];
+  displayedColumns: string[] = ['title', 'author', 'date', 'button'];
 
 
 }
