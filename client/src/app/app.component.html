@@ -1,0 +1,41 @@
+<mat-sidenav-container>
+    <mat-sidenav-content>
+        <mat-toolbar color="primary">
+            <div>
+                <a>
+          HN Feed -> We <3 hacker news!
+       </a>
+            </div>
+        </mat-toolbar>
+        <main>
+            <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+                <!--- Note that these columns can be defined in any order.
+                  The actual rendered columns are set as a property on the row definition" -->
+
+                <!-- Title Column -->
+                <ng-container matColumnDef="title">
+                    <th mat-header-cell *matHeaderCellDef> Title </th>
+                    <td mat-cell *matCellDef="let element" (click)="getStory(element.story, element.title)"> {{element?.title || 'no title to display'}} </td>
+                </ng-container>
+
+                <!-- Author Column -->
+                <ng-container matColumnDef="author">
+                    <th mat-header-cell *matHeaderCellDef> Author </th>
+                    <td mat-cell *matCellDef="let element" (click)="getStory(element.story, element.title)"> {{element?.author|| 'no author to display'}} </td>
+                </ng-container>
+
+                <!-- Date Column -->
+                <ng-container matColumnDef="date">
+                    <th mat-header-cell *matHeaderCellDef> Date </th>
+                    <td mat-cell *matCellDef="let element" (click)="getStory(element.story, element.title)"> {{element?.date || 'no date to display'}} </td>
+                </ng-container>
+
+
+                <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+            </table>
+
+        </main>
+    </mat-sidenav-content>
+</mat-sidenav-container>
