@@ -9,7 +9,7 @@ cd into `server` `cd ./server` and execute `npm i` after that run command: `npm 
 
 cd into `client` `cd ./client` and execute `npm i` after that run command: `npm run start` to exec Client.
 
-api runs in port `8080` => `localhost:5000`  
+api runs in port `8080` => `http://localhost:8080/api`  
 
 ## web api
 
