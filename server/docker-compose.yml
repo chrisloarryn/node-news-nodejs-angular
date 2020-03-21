@@ -1,0 +1,44 @@
+version: "3"
+services:
+  app:
+    build: .
+    depends_on:
+      - mongodb
+    environment:
+      DATABASE_URL: mongodb://localhost:27017/hnDatabase
+      NODE_ENV: development
+      PORT: 3000
+    ports:
+      - "3000:3000"
+    command: npm run start-dev
+    volumes:
+      - .:/app/
+      - /app/node_modules
+
+  postgres:
+    image: postgres:10.4
+    ports:
+      - "35432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: innovaDB
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+volumes: 
+  pgdata:
+
+    version: '3.7'
+services:
+  app:
+    image: mongo:latest
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: rootpassword
+    ports:
+      - 27017:27017
+    volumes:
+      - mongodb_data_container:/data/db
+
+volumes:
+  mongodb_data_container:
