@@ -1,7 +1,7 @@
 import { Component, Inject } from '@angular/core';
 import { NewsService } from './news.service';
 import { DataSource } from '@angular/cdk/table';
-import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material';
+import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
 import { ModalComponent } from './modal.component';
 
 export interface News {
@@ -24,20 +24,23 @@ export class AppComponent {
   constructor(
     private newsService: NewsService,
     public dialog: MatDialog
-  ){}
+  ) { }
 
 
   ngOnInit() {
-    this.newsService.getNews().subscribe((data)=>{
-      this.dataSource = data;
+    this.newsService.getNews().subscribe((data) => {
+      console.log(data['feed'])
+      this.dataSource = data['feed'];
       console.log(this.dataSource);
     });
   }
 
-  getStory(story, title): void{
+  getStory(story, title): void {
+    console.log(story);
+    console.log(title);
     const dialogRef = this.dialog.open(ModalComponent, {
       width: '768px',
-      data: {story: story, title: title}
+      data: { story: story, title: title }
     });
 
     dialogRef.afterClosed().subscribe(result => {
@@ -54,5 +57,5 @@ export class AppComponent {
 }
 
 export class DialogBodyComponent {
-  constructor( public dialogRef: MatDialogRef<DialogBodyComponent>){}
+  constructor(public dialogRef: MatDialogRef<DialogBodyComponent>) { }
 }

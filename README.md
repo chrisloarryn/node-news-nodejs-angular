@@ -3,9 +3,13 @@ get news from api and save it to mongodb and show at front dev
 
 ## 
 
-cd into server `cd ./server` and execute `npm i` after that run command: `npm run start` to exec Api.
+cd into `server` `cd ./server` and execute `npm i` after that run command: `npm run start` to exec Api.
 
-api runs in port `5000\n localhost:5000`  
+## using another terminal
+
+cd into `client` `cd ./client` and execute `npm i` after that run command: `npm run start` to exec Client.
+
+api runs in port `8080` => `localhost:5000`  
 
 ## web api
 

@@ -7,12 +7,12 @@ import { env } from '../environments/environment';
 @Injectable()
 export class NewsService {
 
-    constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) { }
 
-    // const urlBack = 'http://localhost:8080/';
-
-    public getNews() {
-        return this.http.get(`${env.backend.pre}${env.backend.host}:${env.backend.port}`);
-    }
+  url = 'http://localhost:8080/api';
+  //
+  public getNews() {
+    return this.http.get(`${env.backend.pre}${env.backend.host}:${env.backend.port}/api`);
+  }
 
 }
