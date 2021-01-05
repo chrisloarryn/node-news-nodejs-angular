@@ -9,7 +9,7 @@
         "npm run start-dev": "cross-env NODE_ENV=dev nodemon server/server.js"
     },
     "dependencies": {
-        "axios": "^0.19.2",
+        "axios": "^0.21.1",
         "cookie-parser": "~1.4.3",
         "debug": "~2.6.9",
         "express": "~4.16.0",
